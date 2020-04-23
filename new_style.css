@@ -1,0 +1,28 @@
+h1 {
+    position: absolute;
+    color: whitesmoke;
+    left: 600px;
+    top: 100px;
+}
+
+ .smlinks{
+    position: absolute;
+    left: 600px;
+    top: 500px;
+    color:white;
+	font-display: block;
+	text-decoration-style: double;
+	 }
+a {
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+  }
+a:hover{
+  background: transparent;
+	color: #25CC67
+}
+a:focus {
+  outline: none;
+}
+
