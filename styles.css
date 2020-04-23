@@ -5,6 +5,9 @@ h1 {
     top: 100px;
 }
 
-a {
-    
+ .smlinks{
+    position: absolute;
+    left: 600px;
+    top: 500px;
+    color:white;
 }
