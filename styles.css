@@ -10,4 +10,30 @@ h1 {
     left: 600px;
     top: 500px;
     color:white;
+	 }
+
+a {
+  font: inherit;
+  color: inherit;
+  }
+
+a:hover{
+  background: transparent;
+	color: #25CC67
+}
+
+a:focus {
+  outline: none;
+}
+
+.github {
+
+    height: 20px;
+    box-sizing: border-box;
+    padding: 1px 8px 1px 6px;
+    background-color: #1b95e0;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
 }
