@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>First Page</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+
+  <script src="https://kit.fontawesome.com/5eebd02d33.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+  
+  <h1> This is my first page </h1>
+  <!--social media links-->
+  <div class="smlinks">
+    <a href="https://github.com/Youkon83"><b>GitHub</b></a> <i class="fab fa-github"></i>
+    <a href="https://twitter.com/YoukonNeil?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @YoukonNeil</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+    <!-- <nodes.js embedding> -->
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript">
+    var nodesjs = new NodesJs({
+        id: 'nodes',
+        width: window.innerWidth,
+        height: window.innerHeight,
+        particleSize: 2,
+        lineSize: 1,
+        particleColor: [255, 255, 255, 0.3],
+        lineColor: [255, 255, 255],
+        backgroundFrom: [10, 25, 100],
+        backgroundTo: [25, 50, 150],
+        backgroundDuration: 4000,
+        nobg: false,
+        number: window.hasOwnProperty('orientation') ? 30: 100,
+        speed: 20,
+        pointerCircleRadius: 150
+    });
+</script>
+<canvas id="nodes"></canvas>
+<!-- </nodes.js embedding> -->
+    
+</body>
+
+</html>
